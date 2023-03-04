@@ -23,4 +23,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
-          message: Auto build ${{ date }}
