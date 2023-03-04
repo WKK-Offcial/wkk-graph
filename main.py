@@ -1,7 +1,6 @@
 from pyvis.network import Network
-import pandas as pd 
-import networkx as nx 
-import random
+import pandas as pd
+import networkx as nx
 from cProfile import label
 
 
@@ -29,14 +28,13 @@ for node in net.nodes:
 
     except Exception as e:
         print(e)
-        
+
 node = net.get_node('Adam')
 node['color'] = 'yellow'
 node['shape'] = 'circularImage'
 node['image'] = 'images/adam.jpg'
 node['value'] = 90
 node['size'] = 90
-
 
 # Generate html
 net.show('index.html')
