@@ -2,7 +2,7 @@ name: Build and push index.html
 
 on:
   push:
-    branches: [master]
+    branches: [ master ]
 
 jobs:
   build:
